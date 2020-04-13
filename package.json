@@ -1,0 +1,10 @@
+{
+  "name": "simple-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:bike-store": "npm --prefix bike-store run build",
+    "build:car-store": "npm --prefix car-store run build"
+  }
+}
